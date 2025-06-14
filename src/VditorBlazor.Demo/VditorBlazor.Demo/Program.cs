@@ -1,4 +1,4 @@
-using VditorBlazor.Demo.Client.Pages;
+﻿using VditorBlazor.Demo.Client.Pages;
 using VditorBlazor.Demo.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +14,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    //app.UseWebAssemblyDebugging();
+    app.UseWebAssemblyDebugging();
 }
 else
 {
